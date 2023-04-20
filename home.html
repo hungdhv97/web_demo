@@ -1,74 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>My Webpage</title>
-</head>
-<body>
-	<!-- Mục 1 -->
-	<h1>Welcome to my webpage!</h1>
-	
-	<!-- Mục 2 -->
-	<h2>About me</h2>
-	<p>Hi, my name is John Doe and I'm a web developer. I enjoy building websites and learning new programming languages.</p>
-	
-	<!-- Mục 3 -->
-	<h2>Services</h2>
-	<ul>
-		<li>Web development</li>
-		<li>Graphic design</li>
-		<li>Content creation</li>
-	</ul>
-	
-	<!-- Mục 4 -->
-	<h2>Portfolio</h2>
-	<img src="myimage1.jpg" alt="My Portfolio Image">
-	
-	<!-- Mục 5 -->
-	<h2>Testimonials</h2>
-	<blockquote>
-		<p>"John is a talented web developer with a keen eye for detail. He delivered our website on time and within budget."</p>
-		<cite>– Jane Doe, CEO of XYZ Company</cite>
-	</blockquote>
-	
-	<!-- Mục 6 -->
-	<h2>Blog</h2>
-	<ul>
-		<li><a href="#">The importance of responsive design</a></li>
-		<li><a href="#">How to optimize your website for search engines</a></li>
-		<li><a href="#">10 tips for effective website design</a></li>
-	</ul>
-	
-	<!-- Mục 7 -->
-	<h2>Contact me</h2>
-	<form>
-		<label for="name">Name:</label>
-		<input type="text" id="name" name="name"><br>
-		<label for="email">Email:</label>
-		<input type="email" id="email" name="email"><br>
-		<label for="message">Message:</label>
-		<textarea id="message" name="message"></textarea><br>
-		<input type="submit" value="Send">
-	</form>
-	
-	<!-- Mục 8 -->
-	<h2>FAQs</h2>
-	<dl>
-		<dt>What services do you offer?</dt>
-		<dd>We offer web development, graphic design, and content creation services.</dd>
-		
-		<dt>What programming languages are you proficient in?</dt>
-		<dd>We are proficient in HTML, CSS, JavaScript, and PHP.</dd>
-		
-		<dt>What is your turnaround time for projects?</dt>
-		<dd>Our turnaround time varies depending on the project scope, but we strive to deliver projects on time and within budget.</dd>
-	</dl>
+<html lang="en">
 
-	<!-- Mục 9 -->
-	<h2>Privacy policy</h2>
-	<p>Our website respects your privacy and we are committed to protecting your personal information. Please read our <a href="#">privacy policy</a> for more information.</p>
-	
-	<!-- Mục 10 -->
-	<h2>Footer</h2>
-	<p>Copyright © 2022 My Webpage</p>
+<head>
+  <meta charset="UTF-8" />
+  <title>Startup Company - Landing Page</title>
+  <meta name="description" content="A description of your startup and what you offer." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Startup Company logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="header-content">
+      <h1>Startup Company</h1>
+      <p>A catchy tagline that describes your company and what it does.</p>
+      <a href="#signup" class="btn-primary">Sign Up Now</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      A brief overview of your company, its mission, and what sets it apart
+      from others.
+    </p>
+    <img src="images/image10.jpg" alt="A photo of your team or product" />
+    <p>
+      More details about your company and what it offers, including any
+      notable achievements or awards.
+    </p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>
+        <img src="images/image5.jpg" alt="Feature 1 icon">
+        <h3>Feature 1</h3>
+        <p>A short description of what this feature does and how it benefits the user.</p>
+      </li>
+      <li>
+        <img src="images/image6.jpg" alt="Feature 2 icon">
+        <h3>Feature 2</h3>
+        <p>A short description of what this feature does and how it benefits the user.</p>
+      </li>
+      <li>
+        <img src="images/image7.jpg" alt="Feature 3 icon">
+        <h3>Feature 3</h3>
+        <p>A short description of what this feature does and how it benefits the user.</p>
+      </li>
+      <li>
+        <img src="images/image8.jpg" alt="Feature 4 icon">
+        <h3>Feature 4</h3>
+        <p>A short description of what this feature does and how it benefits the user.</p>
+      </li>
+      <li>
+        <img src="images/image9.jpg" alt="Feature 5 icon">
+        <h3>Feature 5</h3>
+        <p>A short description of what this feature does and how it benefits the user.</p>
+      </li>
+    </ul>
+  </section>
+
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <p>Details about your pricing plans and what they include.</p>
+    <ul>
+      <li>Basic Plan: $X/month</li>
+      <li>Standard Plan: $Y/month</li>
+      <li>Premium Plan: $Z/month</li>
+    </ul>
+    <a href="#signup" class="btn-primary">Sign Up Now</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      A contact form or email address where visitors can get in touch with
+      your team.
+    </p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea><br />
+      <input type="submit" value="Send" />
+    </form>
+  </section>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2023 Startup Company. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
